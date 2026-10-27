@@ -1,0 +1,16 @@
+{
+  "accounts": {
+    "alice@example.org": {
+      "calendar": "personal",
+      "path": "~/.local/share/vdir/calendars/personal",
+      "pair": "personal",
+      "collection": "personal"
+    },
+    "alice.work@example.org": {
+      "calendar": "work",
+      "path": "~/.local/share/vdir/work-calendars/work",
+      "pair": "work",
+      "collection": "work"
+    }
+  }
+}

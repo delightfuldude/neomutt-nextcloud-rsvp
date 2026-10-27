@@ -1,0 +1,7 @@
+# Explicit attachment action: no copiousoutput on interactive handlers.
+text/calendar; ~/.config/mutt/eventhandler.sh %s; needsterminal
+application/ics; ~/.config/mutt/eventhandler.sh %s; needsterminal
+
+# Read-only automatic previews. Adjust the khal path if using system packages.
+text/calendar; ~/.local/share/neomutt-nextcloud-rsvp/venv/bin/khal printics %s; copiousoutput
+application/ics; ~/.local/share/neomutt-nextcloud-rsvp/venv/bin/khal printics %s; copiousoutput
